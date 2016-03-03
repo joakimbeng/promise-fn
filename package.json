@@ -1,6 +1,6 @@
 {
   "name": "promise-fn",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Wrap a function to be able to call it with promises as arguments, i.e. use promises as if they where non-promise values",
   "main": "src/index.js",
   "directories": {
