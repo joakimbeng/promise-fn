@@ -1,0 +1,59 @@
+{
+  "name": "promise-fn",
+  "version": "0.1.0",
+  "description": "Wrap a function to be able to call it with promises as arguments, i.e. use promises as if they where non-promise values",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joakimbeng/promise-fn.git"
+  },
+  "keywords": [
+    "promise",
+    "wrap",
+    "function",
+    "fn",
+    "call",
+    "apply"
+  ],
+  "author": {
+    "name": "Joakim Carlstein",
+    "email": "joakim@beng.se",
+    "url": "http://joakim.beng.se"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joakimbeng/promise-fn/issues"
+  },
+  "homepage": "https://github.com/joakimbeng/promise-fn#readme",
+  "xo": {
+    "envs": [
+      "node"
+    ]
+  },
+  "pj2md": {
+    "related": [
+      "promise-fnapply",
+      "promise-fncall",
+      "promise-if",
+      "promise-or",
+      "promise-and",
+      "promise-not",
+      "promise-all",
+      "promise-get"
+    ]
+  },
+  "devDependencies": {
+    "ava": "^0.12.0",
+    "xo": "^0.12.1"
+  },
+  "dependencies": {
+    "promise-fnapply": "^1.1.0",
+    "sliced": "^1.0.1"
+  }
+}
